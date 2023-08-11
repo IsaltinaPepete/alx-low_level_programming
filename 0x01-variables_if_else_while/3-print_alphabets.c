@@ -1,24 +1,27 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: 0(Success)
  */
 int main(void)
 {
-	char letter='a';
-	while(letter<='z')
+	char letter = 'a';
+
+	while (letter <= 'z')
 	{
 		putchar(letter);
 		letter++;
 	}
-	letter='A';
-	while(letter<='Z')
+
+	letter = 'A';
+
+	while (letter <= 'Z')
 	{
 		putchar(letter);
 		letter++;
 	}
 	putchar('\n');
-	retun (0);
+	return (0);
 }
