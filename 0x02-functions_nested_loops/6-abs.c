@@ -2,7 +2,7 @@
 
 /**
  * _abs - the absolute value
- *
+ * @n: the int to check
  * Return: number
  */
 int _abs(int n)
@@ -10,8 +10,6 @@ int _abs(int n)
 	if (n < 0)
 	{
 		return (n * (-1));
-	} else
-	{
-		return (n);
 	}
+	return (n);
 }
