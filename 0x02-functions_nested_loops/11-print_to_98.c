@@ -12,7 +12,7 @@ void print_to_98(int n)
 
 	if (n <= 97)
 	{
-		for (i = n; i <= 9; i++)
+		for (i = n; i <= 97; i++)
 		{
 			printf("%d, ", i);
 		}
@@ -23,6 +23,5 @@ void print_to_98(int n)
 			printf("%d, ", i);
 		}
 	}
-	printf("%d", 98);
-	_putchar('\n');
+	printf("98\n");
 }
