@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isupper - is upper
+ * _isupper - is upper
  * @c: paramiter
  * Return: 1 or 0
  */
