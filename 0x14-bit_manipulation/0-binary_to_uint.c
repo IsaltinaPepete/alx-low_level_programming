@@ -9,9 +9,6 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int len, power, total;
 
-	total = 0;
-	power = 0;
-
 	if (b == NULL)
 		return (0);
 
