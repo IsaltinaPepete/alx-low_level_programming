@@ -21,13 +21,10 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 	}
 
-	for (i = len; i > 0; i--)
+	for (power = 1, total = 0, len--; len >= 0; len--, power *= 2)
 	{
-		if (b[i] == '1')
-		{
-			total += 1 << power;
-		}
-		power++;
+		if (b[len] == '1')
+			total += power;
 	}
 
 	return (total);
