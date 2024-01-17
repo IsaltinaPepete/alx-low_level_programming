@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
  * print_dlistint - print elements of a list
  * @h: var
  * Return: cont
